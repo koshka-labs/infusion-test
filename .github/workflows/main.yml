@@ -26,3 +26,5 @@ jobs:
     - run: npm install
     - run: npm run test:node
     - run: npm run test:browser
+      env:
+        HEADLESS: 1
