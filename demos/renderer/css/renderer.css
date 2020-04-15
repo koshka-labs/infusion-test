@@ -1,0 +1,53 @@
+.demo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 4rem;
+}
+
+.info-block {
+    padding: 10px;
+}
+.info-block > label {
+    font-weight: bold;
+}
+.renderButton-container {
+    text-align: center;
+}
+.rendererContent-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+}
+.rendererContent-column {
+    margin: 1rem;
+    max-width: 100%;
+}
+.model-dump {
+    border: solid 1px;
+    font-family: monospace;
+    padding: 10px;
+    width: 15rem;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
