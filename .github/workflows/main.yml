@@ -12,4 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+     - uses: InstaCode/lockdown@v1
+       with:
+         users: abcdef-random-123456
+
      - run: echo hello-world
